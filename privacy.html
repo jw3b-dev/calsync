@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>calsync privacy policy</title>
+<meta name="description" content="What calsync reads, what it keeps and where it sends it.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<p class="back"><a href="./">calsync</a></p>
+<h1>Privacy policy</h1>
+<p class="lede">Last updated 29 October 2026.</p>
+
+<h2>Who runs it</h2>
+<p>calsync is run by John Wellard, for himself. It is used with two accounts only, both his own: a Google account and an Outlook.com account. It has no other users.</p>
+
+<h2>What it reads</h2>
+<p>The events in John's main Google calendar and in his Outlook.com calendar, from 30 days back to a year ahead: their title, time, place, description and free/busy status, and who is invited (only to tell whether an event is a meeting, which calsync never changes).</p>
+
+<h2>What it keeps</h2>
+<p>On John's own home server, readable only by calsync:</p>
+<ul>
+<li>the sign-in tokens for the two accounts;</li>
+<li>a small database that pairs each event with its copy: the two event IDs, a fingerprint of the content, the start and end times, and whether the event repeats;</li>
+<li>a log of each run: how many events it copied, changed or removed, and their event IDs.</li>
+</ul>
+<p>It does not keep event titles, descriptions, places or the names of people invited. Those pass through memory while a copy is made and are not written anywhere except the other calendar.</p>
+
+<h2>Where it sends it</h2>
+<p>Event details go from one of John's calendars to the other, between Google and Microsoft, and nowhere else. calsync has no analytics, no advertising and no third-party services, and it does not use calendar data to train AI models.</p>
+<p>calsync's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Stopping it</h2>
+<p>Removing calsync's access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> stops it at once. Its tokens and database can then be deleted from the server.</p>
+
+<h2>Changes and questions</h2>
+<p>Any change to this policy is published on this page with a new date. Questions: <a href="https://github.com/jw3b-dev/calsync/issues">open an issue</a> on this site's GitHub repository.</p>
+</main>
+</body>
+</html>
